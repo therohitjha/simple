@@ -1,0 +1,403 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: therohitjha
+    Description: This is a Simple Website
+    Author: Rohit Jha
+-----------------------------------------------------------------------------------
+ */
+
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-size: 100%;
+}
+
+body{
+  background: #000000;
+}
+
+.contact-section {
+    background: #eeeeee;
+    padding: 30px 0 50px 0;
+    text-align: center;
+  }
+  .contact-section h3 {
+    
+    color: rgba(0, 189, 247, 0.445);
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+
+
+
+  .contact-section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 720px;
+    height: 400px;
+    background: rgba(192, 222, 231, 0.521);
+    text-align: left;
+    padding: 10px 0;
+  }
+  .contact-section form .subject,
+  .contact-section form .content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .contact-section form .subject,
+  .contact-section form .content {
+    display: block;
+   
+  }
+  .contact-section form .id {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .contact-section form .id .name,
+  .contact-section form .id .email {
+    display: inline-block;
+    width: 45%;
+  }
+  .contact-section form .id .name,
+  .contact-section form .id .email{
+    display: block;
+    
+  }
+
+
+  .contact-section form .id .name input[name="email"],
+  .contact-section form .id .name input[name="name"],
+  .contact-section form .id .email input[name="email"],
+  .contact-section form .id .email input[name="name"] {
+    width: 100%;
+    height: 2.5em;
+  } 
+
+  .contact-section form .subject input[name="subject"] {
+    width: 100%;
+    height: 2.5em;
+  }
+  .contact-section form .content textarea {
+    width: 100%;
+    resize: none;
+  }
+  .contact-section form .content button {
+    margin-top: .5em;
+    background: #3cbfe7;
+    padding: .5em 3em;
+    border: 1px solid #3cbfe7;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.281);
+    transition: all .3s;
+    border-radius: .4em;
+  }
+  
+  footer{
+    background-color: black;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+
+
+html{
+    background-color: #ACF192;
+}
+
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+max-width: 100%;
+}
+
+
+
+header{
+margin-top: 0;
+  padding: 0px;
+  background: #87E664;
+ letter-spacing: 2px;
+  
+}
+
+header h1{
+
+margin-bottom: 0;
+opacity: 0.8;
+}
+
+header p{
+
+    margin-top: 0;
+}
+
+.site-title{
+
+padding: 20px 15px;
+
+}
+
+.site-nav ul{
+
+    margin: 0;
+    padding: 0;
+   
+}
+
+.site-nav li{
+
+   display: inline-block;
+margin-right: 5px;
+
+
+}
+
+
+.site-nav a{
+
+text-decoration: none;
+display: block;
+color: black;
+padding: 10px 20px;
+background-color: #34A909;
+
+}
+
+.top-nav{
+background-color: #34A909;
+overflow: hidden;
+
+}
+
+
+.site-nav a:hover{
+    background-color: #ACF192;
+}
+
+
+.container{
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.content-area{
+border-bottom: 3px solid #000000;
+border-top: 3px solid #000000;
+background-color: #ACF192; 
+padding: 10px 20px;
+text-align: justify;  
+
+}
+
+.main-content{
+
+    width: 65%;
+    float: left;
+    padding-right: 40px;
+    
+}
+
+.sidebar{
+    width: 35%;
+    float: left;
+    padding: 10px 20px;
+background-color: #87E664;
+}
+
+
+
+
+.col{
+    float: left;
+   width: 50%;
+padding-right: 10px;
+}
+
+.clearfix:after{
+ 
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+@media only screen and (max-width: 720px)
+{
+
+body{
+    font-size: 85%;
+}
+
+
+.content-area{
+
+   padding: 0;
+    margin: 0;
+}
+
+.main-content,.sidebar{
+   width: auto;
+   float: none; 
+   padding: 20px;
+}
+
+header{
+    
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+
+}
+
+.site-title{
+
+    padding: 0;
+}
+
+header h1, p{
+    padding: 0 20px;
+    margin: 0;
+    letter-spacing: none;
+}
+
+header p{
+    margin-bottom: 10px;
+}
+
+.row{
+margin-right: -10px;
+
+}
+.bird{
+    padding: 10px 20px;
+    padding-right: 0px;
+    
+}
+
+.squarrel{
+
+    padding: 10px 20px;
+    padding-left: 0px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 480px)
+{
+
+body{
+    font-size: 75%;
+}
+
+
+
+.content-area{
+
+   padding: 0;
+    margin: 0;
+}
+
+.main-content,.sidebar{
+   width: auto;
+   float: none; 
+   padding: 10px 5px;
+}
+
+header{
+    padding: 0;
+  letter-spacing: 0;
+
+}
+
+header p{
+margin-top: 0;
+    
+}
+
+header h1{
+    padding: 10px 20px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.site-nav a{
+    padding: 2px 4px;
+    font-size: 95%;
+    margin-left: 5px;
+}
+ 
+
+}
+
+.contact-container{   
+    background-color: rgba(7,6,11,.20);
+    border-radius: 5px;
+    margin: 0 auto 0;
+    width: 50%;
+    height: 65vh;
+    padding: .7em .7em 0 ;
+    text-align: center;
+}
+    
+    .contact{
+    padding: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+ border-radius: 5px;  
+    }
+    
+    .contact:hover{
+    box-shadow: 0px 3px 3px #1311112f;
+    }
+.contact-subject{
+
+    width: 100%;
+}
+
+.contact-name , .contact-email{
+float: left;
+    width: 49%;
+}
+.contact-name{
+    margin-right: 5px;
+}
+
+.contact-email{
+    margin-left: 5px; 
+}
+
+    .contact-text-area{
+width: 100%;
+height: 150px;
+
+    }
+    
+
+    .contact-button{
+        background-color: #3fe939;
+        border-style: none;
+       color: aliceblue;
+        width: 100%;
+    }
